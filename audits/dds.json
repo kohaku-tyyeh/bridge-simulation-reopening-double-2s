@@ -1,0 +1,35 @@
+{
+ "engine": {
+  "GetDDSInfo": "2.9.0",
+  "library": "endplay/_dds/libdds.so",
+  "sha256": "d75117387f719d565b974248eec812dbf0de75ff97f44048fafe2adf42048782"
+ },
+ "cross_check": "同一 libdds 經 endplay 的 calc_dd_table 另一呼叫路徑，前 5 副 20 格逐格比對（座位與花色對應）",
+ "boards": [
+  {
+   "board": 1,
+   "cells": 20,
+   "match": true
+  },
+  {
+   "board": 2,
+   "cells": 20,
+   "match": true
+  },
+  {
+   "board": 3,
+   "cells": 20,
+   "match": true
+  },
+  {
+   "board": 4,
+   "cells": 20,
+   "match": true
+  },
+  {
+   "board": 5,
+   "cells": 20,
+   "match": true
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+  "opener_min_hcp": 11,
+  "opener_max_hcp": 17,
+  "opener_min_losing_tricks": 5,
+  "opener_excluded_major_lengths_for_2H": [
+    [
+      7,
+      4
+    ]
+  ],
+  "opener_2H_hcp_by_major_lengths": {
+    "5-4": [
+      15,
+      17
+    ],
+    "5-5": [
+      13,
+      16
+    ],
+    "6-4": [
+      13,
+      16
+    ],
+    "6-5": [
+      11,
+      15
+    ]
+  },
+  "opener_2H_longer_two_suiter_hcp": [
+    11,
+    15
+  ],
+  "opener_2H_weak_hearts_policy": {
+    "mode": "review_only",
+    "extra_values_hcp": 15,
+    "alternative_spade_length": 6,
+    "alternative_spade_top5_min": 3
+  },
+  "partner_nt_min_hcp": 6,
+  "partner_nt_max_hcp": 10,
+  "partner_max_hearts": 3,
+  "partner_min_suit_length": 2,
+  "partner_max_suit_length": 5,
+  "penalty_min_hcp": 8,
+  "penalty_four_spades_side_honors": [
+    "K",
+    "A"
+  ],
+  "responder_max_spades": 4,
+  "responder_2S_max_hcp": 7,
+  "responder_0_2_spades_max_hcp": 9,
+  "responder_balanced_3_spades_max_hcp": 5,
+  "responder_other_support_max_hcp": 4,
+  "preference_requires_spades_ge_hearts": true,
+  "notes": [
+    "Exclude North 1NT with a five-card minor when HCP is 6-8, OR the shape is 5422, OR that five-card minor contains at least two of AKQJ; North still bids 1NT when spades contain A, or KQ, or QJ with at least four spades.",
+    "Four spades qualify for a proactive penalty double (so North is excluded) at single-suit full KnR >=5.65, total HCP >=8, and a side A/K.",
+    "Five spades qualify at single-suit full KnR >=6.25 with total HCP >=8; total HCP >=7 suffices when spades contain A or both K and Q.",
+    "Monotonicity: five spades also qualify if deleting any one spade yields a qualifying four-spade evaluation. Subtract the deleted honor HCP and retain all side suits. This is an evaluation projection, not a dealt 12-card hand.",
+    "The five-spade threshold is 6.25 plus the four-to-five inheritance; there is no separate lower threshold and no sequence-specific override.",
+    "KnR is quality (steps1-12) plus high-card components (steps13-23) for this suit only; no allocation of whole-hand adjustments. Source https://www.rpbridge.net/8j19.htm; step8 requires neither 8 nor T.",
+    "The trump-promotion floor is diagnostic only and does not filter. No filtering uses DD or Par outcomes.",
+    "At 15+ HCP East has extra strength and may rebid 2H even with poor four-card hearts. Heart quality alone never excludes these hands.",
+    "Diagnostic flag only (mode review_only, no filtering): below 15 HCP with exactly 6S4H, at least three of AKQJT in spades, and hearts lacking A/K with at most one Q/J/T, 2S might be preferred. These hands remain in the sample.",
+    "No general weak-four-heart exclusion. In particular 5S4H with 15-17 HCP remains eligible regardless of heart honors, subject to the other rules.",
+    "East 5422 hands with 15-17 HCP, including those with honors in both minor doubletons, remain in the sample.",
+    "East HCP bands by major lengths: 5S4H 15-17; 5S5H and 6S4H 13-16; 6S5H 11-15.",
+    "Longer two-suiters (at least 6S and 5H, beyond exact 6-5) use 11-15 as well; other unlisted major shapes are outside this model.",
+    "West's 2S preference is at most 7 HCP, in addition to the lower caps for three/four-card support.",
+    "Fixed South 11, North at most 10, West at most 7 imply East at least 12 in actual accepted deals, even when a shape band nominally starts at 11.",
+    "Exactly seven spades and four hearts would not compete with 2H; exclude all 7-4-x-x opener hands. 7-5 is not excluded by this rule.",
+    "NS nonvulnerable, EW vulnerable; North deals; South is fixed.",
+    "Opener has at most 17 HCP; the shape-specific bands above set the range for each major-suit shape.",
+    "Natural opening: spades at least as long as hearts; both 5-5 and 6-4 allowed.",
+    "North 1NT: 6-10 HCP, no four hearts, no singleton/void, no six-card suit; 5422 allowed.",
+    "Spade stopper for 1NT: A, Kx, Qxx, Jxxx or longer.",
+    "Opener must have at least 5 losing tricks. Use basic unadjusted LTC: A for singleton, AK for doubleton, AKQ for 3+ cards.",
+    "Balanced means 4333, 4432, or 5332. Four spades has the 4 HCP cap regardless of shape.",
+    "Five or more spades in West is outside this model.",
+    "West is restricted to spades >= hearts. Real 2S preference can occur outside that subset.",
+    "North's initial Pass has no extra filter here given 6-10 HCP and at most five cards in any suit.",
+    "East's final Pass requires basic LTC >= 5; 6-5 and 7-5 shapes are not otherwise excluded.",
+    "No double-dummy results, outcome selection, or Pass-vs-Double comparison is used."
+  ],
+  "penalty_four_min_knr": 5.65,
+  "penalty_five_min_knr": 6.25,
+  "penalty_five_control_min_hcp": 7,
+  "penalty_five_inherits_four": true,
+  "partner_nt_minor_choice_filter": true
+}

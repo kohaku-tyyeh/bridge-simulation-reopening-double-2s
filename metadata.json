@@ -1,50 +1,97 @@
 {
-  "title": "對手停在 2♠，單張黑桃的 11 點要不要重開賭倍？",
-  "article": "https://hackmd.io/@TpKotoba/rkRPQFWAzg",
-  "data_date": "2026-11-11",
-  "boards": 10000,
-  "seats": {
-    "dealer": "N",
-    "vulnerability": "EW vulnerable, NS not vulnerable",
-    "fixed_south": "S:3 H:9754 D:AKT8 C:A764"
+ "title": "對手停在 2♠，單張黑桃的 11 點要不要重開賭倍？",
+ "article": "https://hackmd.io/@TpKotoba/rkRPQFWAzg",
+ "run_date": "2026-11-11",
+ "run_times_asia_taipei": {
+  "sampling": "2026-11-11 15:52–15:55",
+  "double_dummy_and_search": "2026-11-11 15:55–16:20",
+  "export": "2026-11-11 17:06"
+ },
+ "boards": 10000,
+ "seats": {
+  "dealer": "N",
+  "vulnerability": "東西有身價、南北無身價",
+  "fixed_south": "S:3 H:9754 D:AKT8 C:A764"
+ },
+ "auction_before_decision": "P 1S X P 1NT 2H P 2S P P",
+ "decision": "南家 Pass，或重開賭倍（X）",
+ "sampling": {
+  "method": "固定南家 13 張；其餘 39 張以 Python random.Random(seed) 原地洗牌，北=0–12、東=13–25、西=26–38；依 source/filters 的條件拒絕。",
+  "stop_rule": "按產生順序取最先合格的 10,000 副；樣本數在看結果前決定",
+  "shuffles": 22276328,
+  "accepted": 10000,
+  "acceptance_rate": 0.0004489,
+  "outcome_independent_acceptance": true
+ },
+ "seeds": {
+  "sampling": 2026111201,
+  "bootstrap": 20261112,
+  "oracle_random_cases": 99
+ },
+ "double_dummy": {
+  "engine_GetDDSInfo": "2.9.0",
+  "library": "pip 套件 endplay 內附的 libdds.so（由 source/dds.py 以 ctypes 直接呼叫 CalcDDtablePBN）",
+  "library_sha256": "d75117387f719d565b974248eec812dbf0de75ff97f44048fafe2adf42048782",
+  "table": "每副 4 個莊位 × 5 種王牌",
+  "workers": 8,
+  "threads_per_worker": 1
+ },
+ "continuation_search": {
+  "source": "source/contpar.cpp（C++17，-O2）",
+  "compiler_used": "zig c++（clang；box 上無 g++）",
+  "model": "南家重開賭倍後由西家續叫；四家全資訊 minimax，南北取最大；合法叫品為 Pass、對敵方未加倍叫品的 X、對敵方 X 的 XX、任何更高叫品；三個 Pass 結束；莊家為該方第一個叫該王牌者（東家已叫 ♠♥、北家已叫 NT）。",
+  "ties": "最佳終局（合約、莊家、加倍）全部保留；代表叫序取每步第一個最佳叫品（Pass、X、XX、低叫品優先）"
+ },
+ "pass_branch": "南家 Pass，東家打未賭倍 2♠，以東家黑桃雙夢家墩數計分。",
+ "assumptions": {
+  "original": "所有合法續叫叫品",
+  "protect_32": "南北任一莊位、任何花色作王的三線合約、南北合計恰好八張王牌、東西王牌 3–2 時，東西不得賭倍（搜尋中移除該叫品並重搜）",
+  "protect_32_41": "同上，3–2 或 4–1；5–0、3NT、其他線位不保護"
+ },
+ "scoring": {
+  "IMP": "逐副（重開賭倍分數 − Pass 分數）換 IMP 後平均",
+  "BAM": "勝 1、和 0.5、負 0",
+  "uncertainty": "以副為單位的成對 bootstrap 10,000 次，2.5 與 97.5 百分位"
+ },
+ "headline": {
+  "original": {
+   "mean_imp": 0.2589,
+   "ci95_imp": [
+    0.1619,
+    0.3566
+   ],
+   "bam": 0.6711,
+   "win_tie_loss": [
+    6173,
+    1076,
+    2751
+   ]
   },
-  "auction_before_decision": "P 1S X P 1NT 2H P 2S P P",
-  "decision": "South: Pass, or Double",
-  "sampling": {
-    "method": "Fix South's 13 cards, shuffle the other 39 uniformly, reject deals outside the bidding model, stop at 10,000 accepted deals.",
-    "seed": 2026111108,
-    "shuffles": 22555277,
-    "accepted": 10000,
-    "outcome_independent_acceptance": true
+  "protect_32": {
+   "mean_imp": 0.4651,
+   "ci95_imp": [
+    0.3692,
+    0.5623
+   ],
+   "bam": 0.68395,
+   "win_tie_loss": [
+    6243,
+    1193,
+    2564
+   ]
   },
-  "double_dummy": {
-    "engine": "DDS 2.9.0 via endplay 0.5.12",
-    "table": "4 declarers x 5 strains per board"
-  },
-  "scoring": {
-    "IMP": "Per board, NS (Double continuation score minus Pass score) converted to IMP, then averaged",
-    "BAM": "Against Pass only: win 1, tie 0.5, loss 0"
-  },
-  "pass_branch": "South passes; East plays 2S undoubled.",
-  "double_branch": "West next; all four seats search legal calls with perfect information (C++ minimax on the DD table, preserving the auction, first bidders and vulnerability). One optimal auction path is saved; contract uniqueness is recorded, path uniqueness is not.",
-  "assumptions": {
-    "original": "All legal continuation calls",
-    "protect_32": "EW never double an NS three-level suit contract with exactly eight trumps when EW trumps split 3-2",
-    "protect_32_41": "Same, also for a 4-1 split; 5-0, other levels and notrump are not protected"
-  },
-  "headline": {
-    "original": {"mean_imp": 0.2209, "bam": 0.66585, "win_tie_loss": [6127, 1063, 2810]},
-    "protect_32": {"mean_imp": 0.4276, "bam": 0.67865, "win_tie_loss": [6197, 1179, 2624]},
-    "protect_32_41": {"mean_imp": 0.6295, "bam": 0.6952, "win_tie_loss": [6291, 1322, 2387]}
-  },
-  "files": {
-    "per_board_results": "data/results.jsonl, data/results.csv",
-    "deals": "data/deals.pbn",
-    "field_definitions": "data/schema.json",
-    "raw_run": "data/raw/current",
-    "filters": "source/current/rules.json, source/current/filter_deals.py, source/current/nt_choice.py, source/current/knr_suit.py",
-    "continuation_search": "source/current/continuation_par.cpp, source/current/continuation_par_policy.cpp",
-    "statistics": "audits/current/summary.json, audits/current/no_double_policy/summary.json, audits/current/components.csv",
-    "verification_entrypoint": "source/reproduce.py"
+  "protect_32_41": {
+   "mean_imp": 0.6752,
+   "ci95_imp": [
+    0.5803,
+    0.7698
+   ],
+   "bam": 0.70065,
+   "win_tie_loss": [
+    6342,
+    1329,
+    2329
+   ]
   }
+ }
 }

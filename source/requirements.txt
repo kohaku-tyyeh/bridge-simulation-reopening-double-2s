@@ -1,2 +1,3 @@
 endplay==0.5.12
-numpy==2.3.5
+numpy
+ziglang

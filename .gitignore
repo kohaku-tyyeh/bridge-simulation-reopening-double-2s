@@ -5,4 +5,7 @@ __pycache__/
 *.pyc
 *.so
 .venv/
-reproduced*/
+build/
+runs/
+log.md
+contpar

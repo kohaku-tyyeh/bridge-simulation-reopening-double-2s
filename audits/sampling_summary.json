@@ -1,0 +1,26 @@
+{
+ "seed": 2026111201,
+ "count": 10000,
+ "attempts": 22276328,
+ "acceptance": 0.00044890701914606393,
+ "rejection_first_reason": {
+  "prefilter_E_majors": 20822304,
+  "E_hcp": 732860,
+  "E_2H_shape_hcp_band": 418832,
+  "N_1NT_hcp": 83719,
+  "N_1NT_spade_stopper": 49371,
+  "E_too_few_losers_to_pass_2S": 49182,
+  "N_1NT_shortness": 23499,
+  "E_would_not_compete_2H_with_this_major_shape": 22600,
+  "W_initial_pass_hcp": 17731,
+  "E_open_longer_major": 17664,
+  "N_would_prefer_hearts": 7710,
+  "N_prefers_minor_response_to_1NT": 6561,
+  "W_2S_preference": 3792,
+  "N_1NT_long_suit": 3119,
+  "W_2S_hcp": 2966,
+  "E_2H_major_shape_not_modelled": 1852,
+  "N_would_penalty_double_2S": 1547,
+  "W_5plus_spades_not_modelled": 1019
+ }
+}

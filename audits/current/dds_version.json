@@ -1,8 +1,0 @@
-{
-  "dds_version": "2.9.0",
-  "endplay_version": "0.5.12",
-  "library": "/workspace/bridge_filter/.venv/lib/python3.12/site-packages/endplay/_dds/libdds.so",
-  "library_sha256": "d75117387f719d565b974248eec812dbf0de75ff97f44048fafe2adf42048782",
-  "experiment_threads": 4,
-  "batch_size": 20
-}

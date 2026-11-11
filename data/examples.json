@@ -1,0 +1,260 @@
+[
+ {
+  "board": 460,
+  "mechanism": "同伴罰放：2♠X 宕二",
+  "focus_scenario": "original",
+  "pbn": "N:JT875.AQ2.93.QT8 AKQ94.KJ86.7.K52 3.9754.AKT8.A764 62.T3.QJ6542.J93",
+  "pass_branch": {
+   "contract": "2S E",
+   "score_ns": 200,
+   "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=460&d=n&v=e&n=sjt875haq2d93cqt8&e=sakq94hkj86d7ck52&s=s3h9754dakt8ca764&w=s62ht3dqj6542cj93&a=p1sdp1n2hp2sppp"
+  },
+  "double_branches": {
+   "original": {
+    "contract": "2SX E",
+    "dd_tricks": 6,
+    "score_ns": 500,
+    "imp": 7,
+    "bam": 1.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=460&d=n&v=e&n=sjt875haq2d93cqt8&e=sakq94hkj86d7ck52&s=s3h9754dakt8ca764&w=s62ht3dqj6542cj93&a=p1sdp1n2hp2sppdppp"
+   },
+   "protect_32": {
+    "contract": "2SX E",
+    "dd_tricks": 6,
+    "score_ns": 500,
+    "imp": 7,
+    "bam": 1.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=460&d=n&v=e&n=sjt875haq2d93cqt8&e=sakq94hkj86d7ck52&s=s3h9754dakt8ca764&w=s62ht3dqj6542cj93&a=p1sdp1n2hp2sppdppp"
+   },
+   "protect_32_41": {
+    "contract": "2SX E",
+    "dd_tricks": 6,
+    "score_ns": 500,
+    "imp": 7,
+    "bam": 1.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=460&d=n&v=e&n=sjt875haq2d93cqt8&e=sakq94hkj86d7ck52&s=s3h9754dakt8ca764&w=s62ht3dqj6542cj93&a=p1sdp1n2hp2sppdppp"
+   }
+  }
+ },
+ {
+  "board": 367,
+  "mechanism": "轉打我方部分合約：梅花 4–4 配合",
+  "focus_scenario": "original",
+  "pbn": "N:KJ6.K82.Q92.JT83 AQT987.AQT6.53.Q 3.9754.AKT8.A764 542.J3.J764.K952",
+  "pass_branch": {
+   "contract": "2S E",
+   "score_ns": -110,
+   "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=367&d=n&v=e&n=skj6hk82dq92cjt83&e=saqt987haqt6d53cq&s=s3h9754dakt8ca764&w=s542hj3dj764ck952&a=p1sdp1n2hp2sppp"
+  },
+  "double_branches": {
+   "original": {
+    "contract": "3C N",
+    "dd_tricks": 9,
+    "score_ns": 110,
+    "imp": 6,
+    "bam": 1.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P 3C P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=367&d=n&v=e&n=skj6hk82dq92cjt83&e=saqt987haqt6d53cq&s=s3h9754dakt8ca764&w=s542hj3dj764ck952&a=p1sdp1n2hp2sppdp3cppp"
+   },
+   "protect_32": {
+    "contract": "3C N",
+    "dd_tricks": 9,
+    "score_ns": 110,
+    "imp": 6,
+    "bam": 1.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P 3C P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=367&d=n&v=e&n=skj6hk82dq92cjt83&e=saqt987haqt6d53cq&s=s3h9754dakt8ca764&w=s542hj3dj764ck952&a=p1sdp1n2hp2sppdp3cppp"
+   },
+   "protect_32_41": {
+    "contract": "3C N",
+    "dd_tricks": 9,
+    "score_ns": 110,
+    "imp": 6,
+    "bam": 1.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P 3C P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=367&d=n&v=e&n=skj6hk82dq92cjt83&e=saqt987haqt6d53cq&s=s3h9754dakt8ca764&w=s542hj3dj764ck952&a=p1sdp1n2hp2sppdp3cppp"
+   }
+  }
+ },
+ {
+  "board": 657,
+  "mechanism": "沒有配合：2NTX 宕三",
+  "focus_scenario": "original",
+  "pbn": "N:QJ96.T86.743.K92 AK7542.AQJ2.5.Q5 3.9754.AKT8.A764 T8.K3.QJ962.JT83",
+  "pass_branch": {
+   "contract": "2S E",
+   "score_ns": -110,
+   "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=657&d=n&v=e&n=sqj96ht86d743ck92&e=sak7542haqj2d5cq5&s=s3h9754dakt8ca764&w=st8hk3dqj962cjt83&a=p1sdp1n2hp2sppp"
+  },
+  "double_branches": {
+   "original": {
+    "contract": "2NTX N",
+    "dd_tricks": 5,
+    "score_ns": -500,
+    "imp": -9,
+    "bam": 0.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P 2NT P P X P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=657&d=n&v=e&n=sqj96ht86d743ck92&e=sak7542haqj2d5cq5&s=s3h9754dakt8ca764&w=st8hk3dqj962cjt83&a=p1sdp1n2hp2sppdp2nppdppp"
+   },
+   "protect_32": {
+    "contract": "2NTX N",
+    "dd_tricks": 5,
+    "score_ns": -500,
+    "imp": -9,
+    "bam": 0.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P 2NT P P X P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=657&d=n&v=e&n=sqj96ht86d743ck92&e=sak7542haqj2d5cq5&s=s3h9754dakt8ca764&w=st8hk3dqj962cjt83&a=p1sdp1n2hp2sppdp2nppdppp"
+   },
+   "protect_32_41": {
+    "contract": "2NTX N",
+    "dd_tricks": 5,
+    "score_ns": -500,
+    "imp": -9,
+    "bam": 0.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P 2NT P P X P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=657&d=n&v=e&n=sqj96ht86d743ck92&e=sak7542haqj2d5cq5&s=s3h9754dakt8ca764&w=st8hk3dqj962cjt83&a=p1sdp1n2hp2sppdp2nppdppp"
+   }
+  }
+ },
+ {
+  "board": 82,
+  "mechanism": "東家額外牌力：叫到 4♠",
+  "focus_scenario": "original",
+  "pbn": "N:K64.Q62.6432.K32 AQJ985.AKT8.J7.J 3.9754.AKT8.A764 T72.J3.Q95.QT985",
+  "pass_branch": {
+   "contract": "2S E",
+   "score_ns": -170,
+   "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=82&d=n&v=e&n=sk64hq62d6432ck32&e=saqj985hakt8dj7cj&s=s3h9754dakt8ca764&w=st72hj3dq95cqt985&a=p1sdp1n2hp2sppp"
+  },
+  "double_branches": {
+   "original": {
+    "contract": "4S E",
+    "dd_tricks": 10,
+    "score_ns": -620,
+    "imp": -10,
+    "bam": 0.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P 2NT P P X P 3C P 3D P 3H P 3S P 3NT P 4C P 4D P 4H P 4S P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=82&d=n&v=e&n=sk64hq62d6432ck32&e=saqj985hakt8dj7cj&s=s3h9754dakt8ca764&w=st72hj3dq95cqt985&a=p1sdp1n2hp2sppdp2nppdp3cp3dp3hp3sp3np4cp4dp4hp4sppp"
+   },
+   "protect_32": {
+    "contract": "4S E",
+    "dd_tricks": 10,
+    "score_ns": -620,
+    "imp": -10,
+    "bam": 0.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P 2NT P P X P 3C P 3D P 3H P 3S P 3NT P 4C P 4D P 4H P 4S P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=82&d=n&v=e&n=sk64hq62d6432ck32&e=saqj985hakt8dj7cj&s=s3h9754dakt8ca764&w=st72hj3dq95cqt985&a=p1sdp1n2hp2sppdp2nppdp3cp3dp3hp3sp3np4cp4dp4hp4sppp"
+   },
+   "protect_32_41": {
+    "contract": "4S E",
+    "dd_tricks": 10,
+    "score_ns": -620,
+    "imp": -10,
+    "bam": 0.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P 2NT P P X P 3C P 3D P 3H P 3S P 3NT P 4C P 4D P 4H P 4S P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=82&d=n&v=e&n=sk64hq62d6432ck32&e=saqj985hakt8dj7cj&s=s3h9754dakt8ca764&w=st72hj3dq95cqt985&a=p1sdp1n2hp2sppdp2nppdp3cp3dp3hp3sp3np4cp4dp4hp4sppp"
+   }
+  }
+ },
+ {
+  "board": 5980,
+  "mechanism": "保護 3–2 改變結果：IMP 與 BAM 的差別",
+  "focus_scenario": "protect_32",
+  "pbn": "N:K9862.K6.Q7.Q983 AJ754.AQJT2.6.J2 3.9754.AKT8.A764 QT.83.J95432.KT5",
+  "pass_branch": {
+   "contract": "2S E",
+   "score_ns": -110,
+   "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=5980&d=n&v=e&n=sk9862hk6dq7cq983&e=saj754haqjt2d6cj2&s=s3h9754dakt8ca764&w=sqth83dj95432ckt5&a=p1sdp1n2hp2sppp"
+  },
+  "double_branches": {
+   "original": {
+    "contract": "3CX N",
+    "dd_tricks": 8,
+    "score_ns": -100,
+    "imp": 0,
+    "bam": 1.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P 3C P P X P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=5980&d=n&v=e&n=sk9862hk6dq7cq983&e=saj754haqjt2d6cj2&s=s3h9754dakt8ca764&w=sqth83dj95432ckt5&a=p1sdp1n2hp2sppdp3cppdppp"
+   },
+   "protect_32": {
+    "contract": "3C N",
+    "dd_tricks": 8,
+    "score_ns": -50,
+    "imp": 2,
+    "bam": 1.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P 3C P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=5980&d=n&v=e&n=sk9862hk6dq7cq983&e=saj754haqjt2d6cj2&s=s3h9754dakt8ca764&w=sqth83dj95432ckt5&a=p1sdp1n2hp2sppdp3cppp"
+   },
+   "protect_32_41": {
+    "contract": "3C N",
+    "dd_tricks": 8,
+    "score_ns": -50,
+    "imp": 2,
+    "bam": 1.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P 3C P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=5980&d=n&v=e&n=sk9862hk6dq7cq983&e=saj754haqjt2d6cj2&s=s3h9754dakt8ca764&w=sqth83dj95432ckt5&a=p1sdp1n2hp2sppdp3cppp"
+   }
+  }
+ },
+ {
+  "board": 1916,
+  "mechanism": "只有保護 4–1 才改變結果",
+  "focus_scenario": "protect_32_41",
+  "pbn": "N:KQ86.Q2.432.J532 AJ954.AK63.QJ6.Q 3.9754.AKT8.A764 T72.JT8.975.KT98",
+  "pass_branch": {
+   "contract": "2S E",
+   "score_ns": -110,
+   "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=1916&d=n&v=e&n=skq86hq2d432cj532&e=saj954hak63dqj6cq&s=s3h9754dakt8ca764&w=st72hjt8d975ckt98&a=p1sdp1n2hp2sppp"
+  },
+  "double_branches": {
+   "original": {
+    "contract": "3CX N",
+    "dd_tricks": 8,
+    "score_ns": -100,
+    "imp": 0,
+    "bam": 1.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P 3C P P X P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=1916&d=n&v=e&n=skq86hq2d432cj532&e=saj954hak63dqj6cq&s=s3h9754dakt8ca764&w=st72hjt8d975ckt98&a=p1sdp1n2hp2sppdp3cppdppp"
+   },
+   "protect_32": {
+    "contract": "3CX N",
+    "dd_tricks": 8,
+    "score_ns": -100,
+    "imp": 0,
+    "bam": 1.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P 3C P P X P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=1916&d=n&v=e&n=skq86hq2d432cj532&e=saj954hak63dqj6cq&s=s3h9754dakt8ca764&w=st72hjt8d975ckt98&a=p1sdp1n2hp2sppdp3cppdppp"
+   },
+   "protect_32_41": {
+    "contract": "3C N",
+    "dd_tricks": 8,
+    "score_ns": -50,
+    "imp": 2,
+    "bam": 1.0,
+    "best_contract_unique": true,
+    "full_auction": "P 1S X P 1NT 2H P 2S P P X P 3C P P P",
+    "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?b=1916&d=n&v=e&n=skq86hq2d432cj532&e=saj954hak63dqj6cq&s=s3h9754dakt8ca764&w=st72hjt8d975ckt98&a=p1sdp1n2hp2sppdp3cppp"
+   }
+  }
+ }
+]

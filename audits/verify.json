@@ -1,0 +1,25 @@
+{
+ "boards": 10000,
+ "manifest_files_checked": 31,
+ "checks": [
+  "MANIFEST 雜湊",
+  "52 張完整不重複、南家不變",
+  "篩牌條件全部通過",
+  "Pass 分數與正負號",
+  "叫序合法並以三個 Pass 結束",
+  "代表終局與全部最佳終局的分數",
+  "分差、IMP、BAM 換算",
+  "平均 IMP 與 BAM 與 audits/summary.json 相同"
+ ],
+ "mean_imp": {
+  "original": 0.2589,
+  "protect_32": 0.4651,
+  "protect_32_41": 0.6752
+ },
+ "bam": {
+  "original": 0.6711,
+  "protect_32": 0.68395,
+  "protect_32_41": 0.70065
+ },
+ "result": "OK"
+}
