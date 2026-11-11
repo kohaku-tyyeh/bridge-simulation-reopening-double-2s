@@ -1,0 +1,50 @@
+{
+  "title": "對手停在 2♠，單張黑桃的 11 點要不要重開賭倍？",
+  "article": "https://hackmd.io/@TpKotoba/rkRPQFWAzg",
+  "data_date": "2026-11-11",
+  "boards": 10000,
+  "seats": {
+    "dealer": "N",
+    "vulnerability": "EW vulnerable, NS not vulnerable",
+    "fixed_south": "S:3 H:9754 D:AKT8 C:A764"
+  },
+  "auction_before_decision": "P 1S X P 1NT 2H P 2S P P",
+  "decision": "South: Pass, or Double",
+  "sampling": {
+    "method": "Fix South's 13 cards, shuffle the other 39 uniformly, reject deals outside the bidding model, stop at 10,000 accepted deals.",
+    "seed": 2026111108,
+    "shuffles": 22555277,
+    "accepted": 10000,
+    "outcome_independent_acceptance": true
+  },
+  "double_dummy": {
+    "engine": "DDS 2.9.0 via endplay 0.5.12",
+    "table": "4 declarers x 5 strains per board"
+  },
+  "scoring": {
+    "IMP": "Per board, NS (Double continuation score minus Pass score) converted to IMP, then averaged",
+    "BAM": "Against Pass only: win 1, tie 0.5, loss 0"
+  },
+  "pass_branch": "South passes; East plays 2S undoubled.",
+  "double_branch": "West next; all four seats search legal calls with perfect information (C++ minimax on the DD table, preserving the auction, first bidders and vulnerability). One optimal auction path is saved; contract uniqueness is recorded, path uniqueness is not.",
+  "assumptions": {
+    "original": "All legal continuation calls",
+    "protect_32": "EW never double an NS three-level suit contract with exactly eight trumps when EW trumps split 3-2",
+    "protect_32_41": "Same, also for a 4-1 split; 5-0, other levels and notrump are not protected"
+  },
+  "headline": {
+    "original": {"mean_imp": 0.2209, "bam": 0.66585, "win_tie_loss": [6127, 1063, 2810]},
+    "protect_32": {"mean_imp": 0.4276, "bam": 0.67865, "win_tie_loss": [6197, 1179, 2624]},
+    "protect_32_41": {"mean_imp": 0.6295, "bam": 0.6952, "win_tie_loss": [6291, 1322, 2387]}
+  },
+  "files": {
+    "per_board_results": "data/results.jsonl, data/results.csv",
+    "deals": "data/deals.pbn",
+    "field_definitions": "data/schema.json",
+    "raw_run": "data/raw/current",
+    "filters": "source/current/rules.json, source/current/filter_deals.py, source/current/nt_choice.py, source/current/knr_suit.py",
+    "continuation_search": "source/current/continuation_par.cpp, source/current/continuation_par_policy.cpp",
+    "statistics": "audits/current/summary.json, audits/current/no_double_policy/summary.json, audits/current/components.csv",
+    "verification_entrypoint": "source/reproduce.py"
+  }
+}

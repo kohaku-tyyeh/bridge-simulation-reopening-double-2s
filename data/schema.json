@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "format": "JSON Lines, one object per final accepted board; CSV is a flat companion view.",
+  "primary_key": "board",
+  "pbn": "PBN Deal tag syntax, starting with N and hands in N E S W order; suit order S H D C.",
+  "vulnerability": "EW: East-West vulnerable, North-South not vulnerable.",
+  "filters": "Per-seat passed/failures use the v7 cards-only pre-decision bidding filters. S checks fixed South; deal_integrity also checks all 52 cards. No DD/Par outcome enters acceptance.",
+  "hand_metrics": "Saved suits, HCP, shape_SHDC, balanced flag and basic losing-trick count for each seat.",
+  "raw_auction_before_action": "Exactly the saved dataset prefix; D means double and 1N means 1NT.",
+  "full_auction": "Normalized display tokens, starting at N: P, X, XX, or level plus C/D/H/S/NT. No AP abbreviation. Every recorded final line ends P P P.",
+  "full_auction_with_seats": "Same complete auction with N/E/S/W assigned cyclically from dealer N.",
+  "pass_branch": "South Pass is the specified terminal alternative; existing N and E passes plus this Pass terminate East 2S undoubled. It is a defined model branch, not a searched or observed auction.",
+  "double_branches": {
+    "original": "Exact perfect-information, history-constrained continuation Par after South X; West next, all four seats free to bid.",
+    "protect_32": "Same search, prohibit EW double of NS level-three suit contracts with exactly eight NS trumps and EW 3-2 split.",
+    "protect_32_41": "Same protection also for EW 4-1 split; 5-0 unprotected.",
+    "policy_scope": "Both NS declarers, all four suit strains, throughout the continuation. Does not protect 3NT or other levels. This is search legality, not a player-response heuristic."
+  },
+  "auction_source": "recorded_search_principal_variation means prefix + South X + the exact saved representative_continuation, with token spelling normalization only. If absent, status is 未記錄 and full_auction is null; no substitute continuation is generated.",
+  "representative_selection": "One search-returned optimal principal variation; not an estimated human-choice probability. Other equally optimal contracts are retained without invented auctions.",
+  "contract": {
+    "level": "1..7",
+    "strain": "C,D,H,S,N (N means notrump)",
+    "declarer": "N,E,S,W",
+    "doubled": "0=undoubled,1=doubled,2=redoubled",
+    "dd_tricks": "Declarer-side best-play tricks, including best opening lead.",
+    "result_tricks": "dd_tricks minus contract target (6+level).",
+    "score_ns": "Duplicate score from North-South viewpoint."
+  },
+  "dd_table": "20 saved DD values; rows CDHSN and columns NESW.",
+  "delta_score_ns": "Double branch score_ns minus Pass branch score_ns.",
+  "delta_imp": "Each paired score difference converted by the standard IMP table; positive favors Double.",
+  "bam_points": "Raw-score win=1, tie=0.5, loss=0, comparing Double to Pass. Not an actual field matchpoint percentage.",
+  "best_contract_unique": "True iff the saved optimal terminal contract set contains exactly one (level,strain,declarer,doubled) tuple. Declarer distinctions count. Does not imply a unique auction.",
+  "best_auction_unique": "Null: the search did not record an exhaustive count of optimal auction paths. best_auction_unique_status is 未記錄.",
+  "provenance": "Final board numbers 1..10000; source_number retains original v6 ID or supplemental ID. source_shuffle_index is recorded for new supplemental boards only, otherwise null.",
+  "source_versions": "Current filters version 7; inherited v6 retained outcomes have identical DDS, score and continuation-search models. Source versions and hashes are in package metadata and raw records."
+}

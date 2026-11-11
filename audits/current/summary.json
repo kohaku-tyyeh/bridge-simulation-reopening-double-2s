@@ -1,0 +1,1419 @@
+{
+  "n": 10000,
+  "positive_means": "Double better than Pass, NS viewpoint",
+  "bam_counts": {
+    "win": 6127,
+    "tie": 1063,
+    "loss": 2810
+  },
+  "bam_proportions": {
+    "win": 0.6127,
+    "tie": 0.1063,
+    "loss": 0.281
+  },
+  "bam_proportion_wilson_95": {
+    "win": [
+      0.603110824218581,
+      0.6222026225486685
+    ],
+    "tie": [
+      0.10040942381670014,
+      0.11249293650037061
+    ],
+    "loss": [
+      0.272275592995717,
+      0.2898925982906393
+    ]
+  },
+  "bam_mean_points": 0.66585,
+  "bam_mean_points_bootstrap_95": [
+    0.6571,
+    0.6746
+  ],
+  "bam_net_win_proportion": 0.3317,
+  "mean_imp": 0.2209,
+  "mean_imp_bootstrap_95": [
+    0.1235,
+    0.31961499999999976
+  ],
+  "mean_raw_delta": 2.376,
+  "mean_raw_delta_bootstrap_95": [
+    -1.7590499999999998,
+    6.539025
+  ],
+  "mean_pass_score": -58.792,
+  "mean_double_par_score": -56.416,
+  "imp_distribution": {
+    "-15": 1,
+    "-13": 2,
+    "-12": 86,
+    "-10": 372,
+    "-9": 291,
+    "-8": 453,
+    "-7": 11,
+    "-6": 84,
+    "-5": 773,
+    "-4": 723,
+    "-3": 4,
+    "-1": 10,
+    "0": 2513,
+    "1": 545,
+    "2": 25,
+    "3": 2063,
+    "5": 10,
+    "6": 1215,
+    "7": 609,
+    "8": 31,
+    "9": 3,
+    "11": 173,
+    "12": 1,
+    "13": 1,
+    "15": 1
+  },
+  "double_par_score_distribution": {
+    "-1400": 1,
+    "-1100": 2,
+    "-800": 82,
+    "-650": 68,
+    "-630": 6,
+    "-620": 259,
+    "-600": 42,
+    "-500": 748,
+    "-300": 1458,
+    "-140": 987,
+    "-130": 2,
+    "-120": 85,
+    "-110": 11,
+    "-100": 2048,
+    "110": 761,
+    "120": 213,
+    "130": 401,
+    "140": 9,
+    "200": 2180,
+    "400": 208,
+    "420": 2,
+    "430": 9,
+    "500": 390,
+    "800": 25,
+    "920": 2,
+    "1440": 1
+  },
+  "raw_delta_quantiles": {
+    "min": -1170.0,
+    "p01": -490.0,
+    "p05": -390.0,
+    "median": 10.0,
+    "p95": 300.0,
+    "p99": 510.0,
+    "max": 1140.0
+  },
+  "multiple_optimal_contract_deals": 6337,
+  "optimal_contract_occurrences": [
+    {
+      "contract": "2SX E",
+      "count": 2467,
+      "proportion": 0.2467
+    },
+    {
+      "contract": "2NX N",
+      "count": 2257,
+      "proportion": 0.2257
+    },
+    {
+      "contract": "3DX N",
+      "count": 1932,
+      "proportion": 0.1932
+    },
+    {
+      "contract": "3DX S",
+      "count": 1805,
+      "proportion": 0.1805
+    },
+    {
+      "contract": "3CX N",
+      "count": 1569,
+      "proportion": 0.1569
+    },
+    {
+      "contract": "3CX S",
+      "count": 1419,
+      "proportion": 0.1419
+    },
+    {
+      "contract": "3C N",
+      "count": 1010,
+      "proportion": 0.101
+    },
+    {
+      "contract": "3S E",
+      "count": 977,
+      "proportion": 0.0977
+    },
+    {
+      "contract": "2NX W",
+      "count": 951,
+      "proportion": 0.0951
+    },
+    {
+      "contract": "2NX E",
+      "count": 944,
+      "proportion": 0.0944
+    },
+    {
+      "contract": "2N N",
+      "count": 916,
+      "proportion": 0.0916
+    },
+    {
+      "contract": "3C S",
+      "count": 905,
+      "proportion": 0.0905
+    },
+    {
+      "contract": "3D N",
+      "count": 720,
+      "proportion": 0.072
+    },
+    {
+      "contract": "3D S",
+      "count": 669,
+      "proportion": 0.0669
+    },
+    {
+      "contract": "3HX N",
+      "count": 629,
+      "proportion": 0.0629
+    },
+    {
+      "contract": "4DX N",
+      "count": 441,
+      "proportion": 0.0441
+    },
+    {
+      "contract": "3N N",
+      "count": 404,
+      "proportion": 0.0404
+    },
+    {
+      "contract": "4DX S",
+      "count": 396,
+      "proportion": 0.0396
+    },
+    {
+      "contract": "4CX N",
+      "count": 387,
+      "proportion": 0.0387
+    },
+    {
+      "contract": "4CX S",
+      "count": 359,
+      "proportion": 0.0359
+    },
+    {
+      "contract": "3HX S",
+      "count": 347,
+      "proportion": 0.0347
+    },
+    {
+      "contract": "4S E",
+      "count": 326,
+      "proportion": 0.0326
+    },
+    {
+      "contract": "4C N",
+      "count": 312,
+      "proportion": 0.0312
+    },
+    {
+      "contract": "5DX N",
+      "count": 293,
+      "proportion": 0.0293
+    },
+    {
+      "contract": "2N E",
+      "count": 290,
+      "proportion": 0.029
+    },
+    {
+      "contract": "2N W",
+      "count": 286,
+      "proportion": 0.0286
+    },
+    {
+      "contract": "4C S",
+      "count": 277,
+      "proportion": 0.0277
+    },
+    {
+      "contract": "5DX S",
+      "count": 257,
+      "proportion": 0.0257
+    },
+    {
+      "contract": "5CX N",
+      "count": 233,
+      "proportion": 0.0233
+    },
+    {
+      "contract": "4D N",
+      "count": 221,
+      "proportion": 0.0221
+    },
+    {
+      "contract": "4D S",
+      "count": 204,
+      "proportion": 0.0204
+    },
+    {
+      "contract": "5CX S",
+      "count": 204,
+      "proportion": 0.0204
+    },
+    {
+      "contract": "3NX N",
+      "count": 204,
+      "proportion": 0.0204
+    },
+    {
+      "contract": "3CX E",
+      "count": 199,
+      "proportion": 0.0199
+    },
+    {
+      "contract": "3H N",
+      "count": 195,
+      "proportion": 0.0195
+    },
+    {
+      "contract": "3CX W",
+      "count": 195,
+      "proportion": 0.0195
+    },
+    {
+      "contract": "3HX E",
+      "count": 181,
+      "proportion": 0.0181
+    },
+    {
+      "contract": "3H S",
+      "count": 161,
+      "proportion": 0.0161
+    },
+    {
+      "contract": "3S S",
+      "count": 142,
+      "proportion": 0.0142
+    },
+    {
+      "contract": "3S N",
+      "count": 141,
+      "proportion": 0.0141
+    },
+    {
+      "contract": "3DX E",
+      "count": 137,
+      "proportion": 0.0137
+    },
+    {
+      "contract": "3DX W",
+      "count": 134,
+      "proportion": 0.0134
+    },
+    {
+      "contract": "3SXX E",
+      "count": 113,
+      "proportion": 0.0113
+    },
+    {
+      "contract": "3C E",
+      "count": 101,
+      "proportion": 0.0101
+    },
+    {
+      "contract": "3C W",
+      "count": 96,
+      "proportion": 0.0096
+    },
+    {
+      "contract": "5C N",
+      "count": 92,
+      "proportion": 0.0092
+    },
+    {
+      "contract": "5C S",
+      "count": 90,
+      "proportion": 0.009
+    },
+    {
+      "contract": "4NX N",
+      "count": 86,
+      "proportion": 0.0086
+    },
+    {
+      "contract": "4HX N",
+      "count": 76,
+      "proportion": 0.0076
+    },
+    {
+      "contract": "5S E",
+      "count": 68,
+      "proportion": 0.0068
+    },
+    {
+      "contract": "3H E",
+      "count": 68,
+      "proportion": 0.0068
+    },
+    {
+      "contract": "2SXX E",
+      "count": 67,
+      "proportion": 0.0067
+    },
+    {
+      "contract": "4H S",
+      "count": 54,
+      "proportion": 0.0054
+    },
+    {
+      "contract": "3D E",
+      "count": 52,
+      "proportion": 0.0052
+    },
+    {
+      "contract": "3D W",
+      "count": 51,
+      "proportion": 0.0051
+    },
+    {
+      "contract": "4H N",
+      "count": 49,
+      "proportion": 0.0049
+    },
+    {
+      "contract": "3N E",
+      "count": 48,
+      "proportion": 0.0048
+    },
+    {
+      "contract": "3N W",
+      "count": 47,
+      "proportion": 0.0047
+    },
+    {
+      "contract": "5D N",
+      "count": 47,
+      "proportion": 0.0047
+    },
+    {
+      "contract": "5D S",
+      "count": 47,
+      "proportion": 0.0047
+    },
+    {
+      "contract": "4N N",
+      "count": 40,
+      "proportion": 0.004
+    },
+    {
+      "contract": "3SX N",
+      "count": 34,
+      "proportion": 0.0034
+    },
+    {
+      "contract": "4SX E",
+      "count": 28,
+      "proportion": 0.0028
+    },
+    {
+      "contract": "4SXX E",
+      "count": 28,
+      "proportion": 0.0028
+    },
+    {
+      "contract": "3SX S",
+      "count": 25,
+      "proportion": 0.0025
+    },
+    {
+      "contract": "4H E",
+      "count": 21,
+      "proportion": 0.0021
+    },
+    {
+      "contract": "4HX S",
+      "count": 18,
+      "proportion": 0.0018
+    },
+    {
+      "contract": "6DX N",
+      "count": 9,
+      "proportion": 0.0009
+    },
+    {
+      "contract": "6DX S",
+      "count": 7,
+      "proportion": 0.0007
+    },
+    {
+      "contract": "4N W",
+      "count": 6,
+      "proportion": 0.0006
+    },
+    {
+      "contract": "4N E",
+      "count": 6,
+      "proportion": 0.0006
+    },
+    {
+      "contract": "5HX N",
+      "count": 3,
+      "proportion": 0.0003
+    },
+    {
+      "contract": "6C N",
+      "count": 2,
+      "proportion": 0.0002
+    },
+    {
+      "contract": "4C E",
+      "count": 2,
+      "proportion": 0.0002
+    },
+    {
+      "contract": "5SX E",
+      "count": 2,
+      "proportion": 0.0002
+    },
+    {
+      "contract": "5NX N",
+      "count": 2,
+      "proportion": 0.0002
+    },
+    {
+      "contract": "7DX N",
+      "count": 2,
+      "proportion": 0.0002
+    },
+    {
+      "contract": "7DX S",
+      "count": 2,
+      "proportion": 0.0002
+    },
+    {
+      "contract": "5S N",
+      "count": 1,
+      "proportion": 0.0001
+    },
+    {
+      "contract": "5S S",
+      "count": 1,
+      "proportion": 0.0001
+    },
+    {
+      "contract": "7C N",
+      "count": 1,
+      "proportion": 0.0001
+    },
+    {
+      "contract": "3CXX N",
+      "count": 1,
+      "proportion": 0.0001
+    },
+    {
+      "contract": "7C S",
+      "count": 1,
+      "proportion": 0.0001
+    },
+    {
+      "contract": "3CXX S",
+      "count": 1,
+      "proportion": 0.0001
+    },
+    {
+      "contract": "4NXX N",
+      "count": 1,
+      "proportion": 0.0001
+    },
+    {
+      "contract": "6C S",
+      "count": 1,
+      "proportion": 0.0001
+    },
+    {
+      "contract": "6HX N",
+      "count": 1,
+      "proportion": 0.0001
+    },
+    {
+      "contract": "6CX N",
+      "count": 1,
+      "proportion": 0.0001
+    },
+    {
+      "contract": "5HX S",
+      "count": 1,
+      "proportion": 0.0001
+    },
+    {
+      "contract": "6NX N",
+      "count": 1,
+      "proportion": 0.0001
+    },
+    {
+      "contract": "4S N",
+      "count": 1,
+      "proportion": 0.0001
+    },
+    {
+      "contract": "4C W",
+      "count": 1,
+      "proportion": 0.0001
+    }
+  ],
+  "optimal_contract_frequency_note": "Counts indicate presence among co-optimal terminal contracts; categories can overlap and need not sum to n.",
+  "grouped_by_undoubled_2S_tricks": [
+    {
+      "east_2S_tricks": 4,
+      "count": 1,
+      "wins": 1,
+      "ties": 0,
+      "losses": 0,
+      "mean_imp": 9.0
+    },
+    {
+      "east_2S_tricks": 5,
+      "count": 37,
+      "wins": 35,
+      "ties": 0,
+      "losses": 2,
+      "mean_imp": 8.72972972972973
+    },
+    {
+      "east_2S_tricks": 6,
+      "count": 473,
+      "wins": 381,
+      "ties": 85,
+      "losses": 7,
+      "mean_imp": 5.547568710359408
+    },
+    {
+      "east_2S_tricks": 7,
+      "count": 2271,
+      "wins": 2140,
+      "ties": 0,
+      "losses": 131,
+      "mean_imp": 2.606781153676794
+    },
+    {
+      "east_2S_tricks": 8,
+      "count": 3867,
+      "wins": 2776,
+      "ties": 1,
+      "losses": 1090,
+      "mean_imp": 0.4235841737781226
+    },
+    {
+      "east_2S_tricks": 9,
+      "count": 2548,
+      "wins": 767,
+      "ties": 977,
+      "losses": 804,
+      "mean_imp": -0.8269230769230769
+    },
+    {
+      "east_2S_tricks": 10,
+      "count": 722,
+      "wins": 27,
+      "ties": 0,
+      "losses": 695,
+      "mean_imp": -7.487534626038781
+    },
+    {
+      "east_2S_tricks": 11,
+      "count": 78,
+      "wins": 0,
+      "ties": 0,
+      "losses": 78,
+      "mean_imp": -9.628205128205128
+    },
+    {
+      "east_2S_tricks": 12,
+      "count": 3,
+      "wins": 0,
+      "ties": 0,
+      "losses": 3,
+      "mean_imp": -13.666666666666666
+    }
+  ],
+  "representative_best": [
+    {
+      "number": 1349,
+      "pbn": "N:A765.A6.96.QT932 KQJ92.QJ83.QJ4.K 3.9754.AKT8.A764 T84.KT2.7532.J85",
+      "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?n=sa765ha6d96cqt932&e=skqj92hqj83dqj4ck&s=s3h9754dakt8ca764&w=st84hkt2d7532cj85&d=n&v=e&a=p1sdp1n2hp2spp&pc=n&sn=You&nn=Partner&en=Opener&wn=Responder",
+      "east_2S_tricks": 5,
+      "pass_score_ns": 300,
+      "double_par_score_ns": 1440,
+      "delta_ns": 1140,
+      "delta_imp": 15,
+      "bam_points": 1,
+      "optimal_contracts": [
+        {
+          "level": 3,
+          "strain": "C",
+          "declarer": "N",
+          "doubled": 2
+        },
+        {
+          "level": 3,
+          "strain": "C",
+          "declarer": "S",
+          "doubled": 2
+        },
+        {
+          "level": 7,
+          "strain": "C",
+          "declarer": "N",
+          "doubled": 0
+        },
+        {
+          "level": 7,
+          "strain": "C",
+          "declarer": "S",
+          "doubled": 0
+        }
+      ],
+      "representative_continuation": [
+        "P",
+        "2N",
+        "P",
+        "3C",
+        "P",
+        "3D",
+        "P",
+        "3H",
+        "P",
+        "3S",
+        "P",
+        "3N",
+        "P",
+        "4C",
+        "P",
+        "4D",
+        "P",
+        "4H",
+        "P",
+        "4S",
+        "P",
+        "4N",
+        "P",
+        "5C",
+        "P",
+        "5D",
+        "P",
+        "5H",
+        "P",
+        "5S",
+        "P",
+        "5N",
+        "P",
+        "6C",
+        "P",
+        "6D",
+        "P",
+        "6H",
+        "P",
+        "6S",
+        "P",
+        "6N",
+        "P",
+        "7C",
+        "P",
+        "P",
+        "P"
+      ],
+      "representative_contract": {
+        "level": 7,
+        "strain": "C",
+        "declarer": "S",
+        "doubled": 0
+      },
+      "solver_nodes": 45933,
+      "solver_seconds": 0.0015529589945799671
+    },
+    {
+      "number": 3588,
+      "pbn": "N:Q74.AT2.63.KT983 AKT92.KJ83.QJ9.Q 3.9754.AKT8.A764 J865.Q6.7542.J52",
+      "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?n=sq74hat2d63ckt983&e=sakt92hkj83dqj9cq&s=s3h9754dakt8ca764&w=sj865hq6d7542cj52&d=n&v=e&a=p1sdp1n2hp2spp&pc=n&sn=You&nn=Partner&en=Opener&wn=Responder",
+      "east_2S_tricks": 7,
+      "pass_score_ns": 100,
+      "double_par_score_ns": 920,
+      "delta_ns": 820,
+      "delta_imp": 13,
+      "bam_points": 1,
+      "optimal_contracts": [
+        {
+          "level": 4,
+          "strain": "N",
+          "declarer": "N",
+          "doubled": 2
+        },
+        {
+          "level": 6,
+          "strain": "C",
+          "declarer": "N",
+          "doubled": 0
+        },
+        {
+          "level": 6,
+          "strain": "C",
+          "declarer": "S",
+          "doubled": 0
+        }
+      ],
+      "representative_continuation": [
+        "P",
+        "2N",
+        "P",
+        "3C",
+        "P",
+        "3D",
+        "P",
+        "3H",
+        "P",
+        "3S",
+        "P",
+        "3N",
+        "P",
+        "4C",
+        "P",
+        "4D",
+        "P",
+        "4H",
+        "P",
+        "4S",
+        "P",
+        "4N",
+        "P",
+        "5C",
+        "P",
+        "5D",
+        "P",
+        "5H",
+        "P",
+        "5S",
+        "P",
+        "5N",
+        "P",
+        "6C",
+        "P",
+        "P",
+        "P"
+      ],
+      "representative_contract": {
+        "level": 6,
+        "strain": "C",
+        "declarer": "S",
+        "doubled": 0
+      },
+      "solver_nodes": 389894,
+      "solver_seconds": 0.014040985995961819
+    },
+    {
+      "number": 177,
+      "pbn": "N:AJ52.K8.96.QT832 KQ987.AJ62.QJ7.K 3.9754.AKT8.A764 T64.QT3.5432.J95",
+      "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?n=saj52hk8d96cqt832&e=skq987haj62dqj7ck&s=s3h9754dakt8ca764&w=st64hqt3d5432cj95&d=n&v=e&a=p1sdp1n2hp2spp&pc=n&sn=You&nn=Partner&en=Opener&wn=Responder",
+      "east_2S_tricks": 6,
+      "pass_score_ns": 200,
+      "double_par_score_ns": 920,
+      "delta_ns": 720,
+      "delta_imp": 12,
+      "bam_points": 1,
+      "optimal_contracts": [
+        {
+          "level": 6,
+          "strain": "C",
+          "declarer": "N",
+          "doubled": 0
+        }
+      ],
+      "representative_continuation": [
+        "P",
+        "2N",
+        "P",
+        "3D",
+        "P",
+        "3H",
+        "P",
+        "3S",
+        "P",
+        "3N",
+        "P",
+        "4D",
+        "P",
+        "4H",
+        "P",
+        "4S",
+        "P",
+        "4N",
+        "P",
+        "5D",
+        "P",
+        "5H",
+        "P",
+        "5S",
+        "P",
+        "6C",
+        "P",
+        "P",
+        "P"
+      ],
+      "representative_contract": {
+        "level": 6,
+        "strain": "C",
+        "declarer": "N",
+        "doubled": 0
+      },
+      "solver_nodes": 181176,
+      "solver_seconds": 0.007325493003008887
+    }
+  ],
+  "representative_worst": [
+    {
+      "number": 3644,
+      "pbn": "N:KT.Q32.QJ97.Q982 AQJ952.AK86..JT5 3.9754.AKT8.A764 8764.JT.65432.K3",
+      "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?n=skthq32dqj97cq982&e=saqj952hak86dcjt5&s=s3h9754dakt8ca764&w=s8764hjtd65432ck3&d=n&v=e&a=p1sdp1n2hp2spp&pc=n&sn=You&nn=Partner&en=Opener&wn=Responder",
+      "east_2S_tricks": 12,
+      "pass_score_ns": -230,
+      "double_par_score_ns": -1400,
+      "delta_ns": -1170,
+      "delta_imp": -15,
+      "bam_points": 0,
+      "optimal_contracts": [
+        {
+          "level": 4,
+          "strain": "H",
+          "declarer": "S",
+          "doubled": 1
+        },
+        {
+          "level": 5,
+          "strain": "C",
+          "declarer": "S",
+          "doubled": 1
+        },
+        {
+          "level": 5,
+          "strain": "N",
+          "declarer": "N",
+          "doubled": 1
+        },
+        {
+          "level": 6,
+          "strain": "C",
+          "declarer": "N",
+          "doubled": 1
+        },
+        {
+          "level": 6,
+          "strain": "H",
+          "declarer": "N",
+          "doubled": 1
+        },
+        {
+          "level": 7,
+          "strain": "D",
+          "declarer": "N",
+          "doubled": 1
+        },
+        {
+          "level": 7,
+          "strain": "D",
+          "declarer": "S",
+          "doubled": 1
+        }
+      ],
+      "representative_continuation": [
+        "P",
+        "2N",
+        "P",
+        "P",
+        "X",
+        "P",
+        "3C",
+        "P",
+        "3D",
+        "P",
+        "3H",
+        "P",
+        "3S",
+        "P",
+        "3N",
+        "P",
+        "4C",
+        "P",
+        "4D",
+        "P",
+        "4H",
+        "P",
+        "4S",
+        "P",
+        "4N",
+        "P",
+        "5C",
+        "P",
+        "5D",
+        "P",
+        "5H",
+        "P",
+        "5S",
+        "P",
+        "5N",
+        "P",
+        "6C",
+        "P",
+        "6D",
+        "P",
+        "6H",
+        "P",
+        "6S",
+        "P",
+        "P",
+        "X",
+        "P",
+        "6N",
+        "P",
+        "P",
+        "X",
+        "P",
+        "P",
+        "XX",
+        "P",
+        "7C",
+        "P",
+        "P",
+        "X",
+        "P",
+        "P",
+        "XX",
+        "P",
+        "7D",
+        "P",
+        "P",
+        "X",
+        "P",
+        "P",
+        "P"
+      ],
+      "representative_contract": {
+        "level": 7,
+        "strain": "D",
+        "declarer": "S",
+        "doubled": 1
+      },
+      "solver_nodes": 347279,
+      "solver_seconds": 0.012610335004865192
+    },
+    {
+      "number": 3822,
+      "pbn": "N:QJ7.KQ8.Q973.T95 AK842.AJT32..QJ3 3.9754.AKT8.A764 T965.6.J6542.K82",
+      "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?n=sqj7hkq8dq973ct95&e=sak842hajt32dcqj3&s=s3h9754dakt8ca764&w=st965h6dj6542ck82&d=n&v=e&a=p1sdp1n2hp2spp&pc=n&sn=You&nn=Partner&en=Opener&wn=Responder",
+      "east_2S_tricks": 12,
+      "pass_score_ns": -230,
+      "double_par_score_ns": -1100,
+      "delta_ns": -870,
+      "delta_imp": -13,
+      "bam_points": 0,
+      "optimal_contracts": [
+        {
+          "level": 4,
+          "strain": "C",
+          "declarer": "N",
+          "doubled": 1
+        },
+        {
+          "level": 4,
+          "strain": "C",
+          "declarer": "S",
+          "doubled": 1
+        },
+        {
+          "level": 5,
+          "strain": "H",
+          "declarer": "N",
+          "doubled": 1
+        },
+        {
+          "level": 5,
+          "strain": "H",
+          "declarer": "S",
+          "doubled": 1
+        },
+        {
+          "level": 6,
+          "strain": "D",
+          "declarer": "N",
+          "doubled": 1
+        },
+        {
+          "level": 6,
+          "strain": "D",
+          "declarer": "S",
+          "doubled": 1
+        },
+        {
+          "level": 6,
+          "strain": "N",
+          "declarer": "N",
+          "doubled": 1
+        }
+      ],
+      "representative_continuation": [
+        "P",
+        "2N",
+        "P",
+        "P",
+        "X",
+        "P",
+        "3C",
+        "P",
+        "3D",
+        "P",
+        "3H",
+        "P",
+        "3S",
+        "P",
+        "3N",
+        "P",
+        "4C",
+        "P",
+        "4D",
+        "P",
+        "4H",
+        "P",
+        "4S",
+        "P",
+        "4N",
+        "P",
+        "5C",
+        "P",
+        "5D",
+        "P",
+        "5H",
+        "P",
+        "5S",
+        "P",
+        "5N",
+        "P",
+        "6C",
+        "P",
+        "6D",
+        "P",
+        "6H",
+        "P",
+        "6S",
+        "P",
+        "P",
+        "X",
+        "P",
+        "6N",
+        "P",
+        "P",
+        "X",
+        "P",
+        "P",
+        "P"
+      ],
+      "representative_contract": {
+        "level": 6,
+        "strain": "N",
+        "declarer": "N",
+        "doubled": 1
+      },
+      "solver_nodes": 187811,
+      "solver_seconds": 0.006657899997662753
+    },
+    {
+      "number": 4304,
+      "pbn": "N:QT54.Q3.QJ63.QJ5 AKJ872.KJT62..83 3.9754.AKT8.A764 96.A8.97542.KT92",
+      "handviewer_url": "https://www.bridgebase.com/tools/handviewer.html?n=sqt54hq3dqj63cqj5&e=sakj872hkjt62dc83&s=s3h9754dakt8ca764&w=s96ha8d97542ckt92&d=n&v=e&a=p1sdp1n2hp2spp&pc=n&sn=You&nn=Partner&en=Opener&wn=Responder",
+      "east_2S_tricks": 12,
+      "pass_score_ns": -230,
+      "double_par_score_ns": -1100,
+      "delta_ns": -870,
+      "delta_imp": -13,
+      "bam_points": 0,
+      "optimal_contracts": [
+        {
+          "level": 4,
+          "strain": "N",
+          "declarer": "N",
+          "doubled": 1
+        },
+        {
+          "level": 5,
+          "strain": "C",
+          "declarer": "N",
+          "doubled": 1
+        },
+        {
+          "level": 5,
+          "strain": "C",
+          "declarer": "S",
+          "doubled": 1
+        },
+        {
+          "level": 7,
+          "strain": "D",
+          "declarer": "N",
+          "doubled": 1
+        },
+        {
+          "level": 7,
+          "strain": "D",
+          "declarer": "S",
+          "doubled": 1
+        }
+      ],
+      "representative_continuation": [
+        "P",
+        "2N",
+        "P",
+        "P",
+        "X",
+        "P",
+        "3C",
+        "P",
+        "3D",
+        "P",
+        "3H",
+        "P",
+        "3S",
+        "P",
+        "3N",
+        "P",
+        "4C",
+        "P",
+        "4D",
+        "P",
+        "4H",
+        "P",
+        "4S",
+        "P",
+        "4N",
+        "P",
+        "5C",
+        "P",
+        "5D",
+        "P",
+        "5H",
+        "P",
+        "5S",
+        "P",
+        "5N",
+        "P",
+        "6C",
+        "P",
+        "6D",
+        "P",
+        "6H",
+        "P",
+        "6S",
+        "P",
+        "P",
+        "X",
+        "P",
+        "6N",
+        "P",
+        "P",
+        "X",
+        "P",
+        "P",
+        "XX",
+        "P",
+        "7C",
+        "P",
+        "P",
+        "X",
+        "P",
+        "P",
+        "XX",
+        "P",
+        "7D",
+        "P",
+        "P",
+        "X",
+        "P",
+        "P",
+        "P"
+      ],
+      "representative_contract": {
+        "level": 7,
+        "strain": "D",
+        "declarer": "S",
+        "doubled": 1
+      },
+      "solver_nodes": 106691,
+      "solver_seconds": 0.003920491995813791
+    }
+  ],
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 2026111117,
+  "inference_note": "Intervals quantify conditional Monte Carlo sampling uncertainty, not bidding-model error or perfect-information Par approximation error.",
+  "imp_note": "Convert each paired action score difference to IMPs before averaging; no field or other-table datum is assumed.",
+  "seed": 2026111108,
+  "generated_deals": 22555277,
+  "rules": {
+    "model_version": 7,
+    "opener_min_hcp": 11,
+    "opener_max_hcp": 17,
+    "opener_min_losing_tricks": 5,
+    "opener_excluded_major_lengths_for_2H": [
+      [
+        7,
+        4
+      ]
+    ],
+    "opener_2H_hcp_by_major_lengths": {
+      "5-4": [
+        15,
+        17
+      ],
+      "5-5": [
+        13,
+        16
+      ],
+      "6-4": [
+        13,
+        16
+      ],
+      "6-5": [
+        11,
+        15
+      ]
+    },
+    "opener_2H_longer_two_suiter_hcp": [
+      11,
+      15
+    ],
+    "opener_2H_weak_hearts_policy": {
+      "mode": "review_only",
+      "extra_values_hcp": 15,
+      "alternative_spade_length": 6,
+      "alternative_spade_top5_min": 3
+    },
+    "partner_nt_min_hcp": 6,
+    "partner_nt_max_hcp": 10,
+    "partner_max_hearts": 3,
+    "partner_min_suit_length": 2,
+    "partner_max_suit_length": 5,
+    "penalty_min_hcp": 8,
+    "penalty_four_spades_side_honors": [
+      "K",
+      "A"
+    ],
+    "responder_max_spades": 4,
+    "responder_2S_max_hcp": 7,
+    "responder_0_2_spades_max_hcp": 9,
+    "responder_balanced_3_spades_max_hcp": 5,
+    "responder_other_support_max_hcp": 4,
+    "preference_requires_spades_ge_hearts": true,
+    "notes": [
+      "User revision v7: exclude North 1NT with a five-card minor, unless spades contain A, KQ, or QJ in at least four cards, when HCP6-8 OR 5422 OR that five-card minor contains at least two of AKQJ. All v6 filters otherwise unchanged.",
+      "User revision v6: four spades qualify for proactive penalty at single-suit full KnR >=5.65, total HCP >=8, and a side A/K.",
+      "User revision v6: five spades qualify at single-suit full KnR >=6.25 with total HCP >=8; total HCP >=7 suffices when spades contain A or both K and Q.",
+      "User revision v6 monotonicity: five spades also qualify if deleting any one spade yields a qualifying four-spade evaluation. Subtract the deleted honor HCP and retain all side suits. This is an evaluation projection, not a dealt 12-card hand.",
+      "The proposed alternative five-spade threshold 5.50 and a separate sequence override were not adopted. Use the last explicit 6.25 requirement plus four-to-five inheritance.",
+      "KnR is quality (steps1-12) plus high-card components (steps13-23) for this suit only; no allocation of whole-hand adjustments. Source https://www.rpbridge.net/8j19.htm; corrected step8 requires neither 8 nor T.",
+      "V6 replaces the old trump-promotion penalty criterion. Promotion floor remains diagnostic only. No filtering uses DD or Par outcomes.",
+      "User revision v5: at 15+ HCP East has extra strength and may need to rebid 2H even with poor four-card hearts. Heart quality alone never excludes these hands.",
+      "Provisional v5 review flag only below 15 HCP: with exactly 6S4H, at least three AKQJT in spades, and hearts lacking A/K with at most one Q/J/T, 2S may be preferred. Retain in the primary sample; omit in a separate sensitivity cohort.",
+      "No general weak-four-heart exclusion. In particular 5S4H with 15-17 HCP remains eligible regardless of heart honors, subject to the other agreed rules.",
+      "The 5422 strong-NT opening style is unresolved: retain 15-17 HCP hands with honors in both minor doubletons in the primary sample, and report a separate sensitivity analysis omitting them.",
+      "User revision v4: 5S4H 15-17 HCP; 5S5H and 6S4H 13-16 HCP; 6S5H 11-15 HCP.",
+      "Provisional extension: longer two-suiters (at least 6S and 5H, beyond exact 6-5) use 11-15 as well; other unlisted major shapes are outside this model.",
+      "User revision v4: West's 2S preference is at most 7 HCP, in addition to the earlier lower caps for three/four-card support.",
+      "Fixed South 11, North at most 10, West at most 7 imply East at least 12 in actual accepted deals, even when a shape band nominally starts at 11.",
+      "User revision v3: exactly seven spades and four hearts would not compete with 2H; exclude all 7-4-x-x opener hands. No additional exclusion of 7-5 is implied.",
+      "User: NS nonvulnerable, EW vulnerable; North deals; South is fixed.",
+      "User: opener has no 18 HCP. The v4 shape-specific bands replace the earlier 11-14 HCP / 10-major-card shortcut.",
+      "Provisional natural opening: spades at least as long as hearts; both 5-5 and 6-4 allowed.",
+      "Provisional North 1NT: 6-10 HCP, no four hearts, no singleton/void, no six-card suit; 5422 allowed.",
+      "Provisional spade stopper: A, Kx, Qxx, Jxxx or longer.",
+      "User revision: opener must have at least 5 losing tricks. Use basic unadjusted LTC: A for singleton, AK for doubleton, AKQ for 3+ cards.",
+      "Balanced means 4333, 4432, or 5332. Four spades has the 4 HCP cap regardless of shape.",
+      "Five or more spades in West is outside this first review model.",
+      "First batch restricts West to spades >= hearts. Real 2S preference can occur outside that subset.",
+      "North's initial Pass has no extra filter here given 6-10 HCP and at most five cards in any suit.",
+      "East's final Pass now additionally requires basic LTC >= 5, rather than forbidding all 6-5 or 7-5 shapes.",
+      "No double-dummy results, outcome selection, or Pass-vs-Double comparison is used."
+    ],
+    "penalty_four_min_knr": 5.65,
+    "penalty_five_min_knr": 6.25,
+    "penalty_five_control_min_hcp": 7,
+    "penalty_five_inherits_four": true,
+    "partner_nt_minor_choice_filter": true
+  },
+  "vulnerability": "NS nonvulnerable, EW vulnerable",
+  "fixed_auction_before_action": [
+    "P",
+    "1S",
+    "D",
+    "P",
+    "1N",
+    "2H",
+    "P",
+    "2S",
+    "P",
+    "P"
+  ],
+  "double_branch_initial_state": "South X, then West to act; all four seats unrestricted",
+  "python_version": "3.12.14",
+  "sampling": {
+    "method": "Exact continuation of random.Random(seed) in-place uniform shuffle of 39 unknown cards",
+    "seed": 2026111108,
+    "source_attempts": 20577853,
+    "additional_attempts": 1977424,
+    "total_stream_attempts": 22555277,
+    "source_accepted": 10000,
+    "source_retained": 9128,
+    "source_rejected_by_new_rule": 872,
+    "additional_accepted": 872,
+    "replayed_shuffles_are_not_new_attempts": true,
+    "additional_rejection_first_reason_counts": {
+      "E_hcp": 1221763,
+      "N_1NT_spade_stopper": 4349,
+      "E_major_lengths": 691830,
+      "E_2H_shape_hcp_band": 37202,
+      "W_2S_hcp": 266,
+      "N_1NT_hcp": 7318,
+      "N_prefers_minor_response_to_1NT": 589,
+      "N_1NT_shortness": 2045,
+      "E_too_few_losers_to_pass_2S": 4321,
+      "E_open_longer_major": 1572,
+      "E_would_not_compete_2H_with_this_major_shape": 2063,
+      "N_would_prefer_hearts": 641,
+      "W_2S_preference": 360,
+      "W_initial_pass_hcp": 1541,
+      "E_2H_major_shape_not_modelled": 192,
+      "N_1NT_long_suit": 270,
+      "N_would_penalty_double_2S": 142,
+      "W_5plus_spades_not_modelled": 88
+    },
+    "additional_generation_seconds": 28.002204682998126,
+    "source_rejection_counts_not_reclassified": true,
+    "stopping_rule": "Stop at 10,000 qualifying deals, independent of outcomes"
+  },
+  "retained_outcomes": 9128,
+  "supplementary_outcomes": 872,
+  "source_sha256": {
+    "filter_deals.py": "d9e44418112d80afde3079dfcdba0b3ff997bceca1ad87b2d223ea18c999ca23",
+    "nt_choice.py": "12d05d81f2fd79cbd17538f3b91442b0c482233b48aefe427732f5cbdce9eeac",
+    "knr_suit.py": "759a524e8e952cbb561e7c2de2cb9e6d6e6febf4f228b5e64af8e0627d4d8417",
+    "rules.json": "6b623f4009461390e41d2359c9c662bd5af4f24d13eb0cb514ec9fe7081ae54a",
+    "dds_backend.py": "7a6b9fe5dcccf0f735c41f17d24a583d0c6cb9ff25dcb1dea0a16e291e40c203",
+    "continuation_par.cpp": "ec5105a75510ee334cc24ccc38c1ed0d63cd4d27474f4422fcb4e74942a0d441",
+    "continuation_par.py": "ccfba9f8f6e33dde6a6cdbf6ba3005d710d9d2e3e7d9f2b260b0051d215f269d",
+    "run_experiment.py": "6b1a64b81c6c683bf994999067d55a905471c79bf82ab45f6d3f326c613ab940",
+    "summarize_v7.py": "0a1b747fb1b24cd2d82af1770c872344d363451c75dda2636179a5618e508367"
+  }
+}

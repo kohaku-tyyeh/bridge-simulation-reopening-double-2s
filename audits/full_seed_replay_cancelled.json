@@ -1,0 +1,11 @@
+{
+  "status": "cancelled_by_user",
+  "mode": "sample",
+  "seed": 2026111108,
+  "completed": false,
+  "last_reported_shuffles": 16000000,
+  "last_reported_accepted": 7021,
+  "comparison_completed": false,
+  "DDS_or_Par_recomputed": false,
+  "reason": "User instructed to stop resource-consuming audits; process terminated with exit code 143."
+}

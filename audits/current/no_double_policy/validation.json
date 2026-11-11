@@ -1,0 +1,252 @@
+{
+  "source": "/workspace/bridge_filter/run_v7_10000",
+  "n": 10000,
+  "applicability": {
+    "A": {
+      "any_eligible_strain_boards": 3432,
+      "mask_frequency_CDHS_bits": {
+        "0": 6568,
+        "1": 1785,
+        "2": 1502,
+        "3": 145
+      },
+      "eligible_strain_boards": {
+        "C": 1930,
+        "D": 1647,
+        "H": 0,
+        "S": 0
+      },
+      "EW_ordered_splits": {
+        "D": {
+          "2-3": 1373,
+          "3-2": 274
+        },
+        "C": {
+          "2-3": 1491,
+          "3-2": 439
+        }
+      },
+      "old_cooptimal_sets_with_now_forbidden_terminal": 832,
+      "old_forbidden_terminal_presence_by_strain": {
+        "D": 454,
+        "C": 384
+      }
+    },
+    "B": {
+      "any_eligible_strain_boards": 5587,
+      "mask_frequency_CDHS_bits": {
+        "0": 4413,
+        "1": 2624,
+        "2": 2429,
+        "3": 534
+      },
+      "eligible_strain_boards": {
+        "C": 3158,
+        "D": 2963,
+        "H": 0,
+        "S": 0
+      },
+      "EW_ordered_splits": {
+        "D": {
+          "2-3": 1373,
+          "1-4": 1314,
+          "3-2": 274,
+          "4-1": 2
+        },
+        "C": {
+          "2-3": 1491,
+          "1-4": 1221,
+          "3-2": 439,
+          "4-1": 7
+        }
+      },
+      "old_cooptimal_sets_with_now_forbidden_terminal": 1573,
+      "old_forbidden_terminal_presence_by_strain": {
+        "D": 891,
+        "C": 708
+      }
+    },
+    "B_changes_mask_vs_A_boards": 2536,
+    "note": "Eligibility counts are not counts of changed minimax values. Same-deal strain counts overlap."
+  },
+  "source_sha256": {
+    "results.jsonl": "795194813337d96cbe7a28cbe7151a341a1ef8d92a3036105c5d26e15ab2ff58",
+    "dds.jsonl": "02263153dd1bc43087df79cc553e0bf2f9cb01f4e22ee3d0a0f36c121b9e75e3",
+    "summary.json": "164a79427b152ec3f081647b32176353cde0b991af8e3c2122c646efcc1f2eb6",
+    "deals.json": "48b951b8e8b919067b1addebb7013465ad971fb0975a6f5e7ba19d981e7436ae"
+  },
+  "A": {
+    "status": "passed",
+    "policy": "A",
+    "n": 10000,
+    "legally_replayed_principal_variations": 10000,
+    "replayed_calls": 108787,
+    "independently_scored_optimal_terminals": 26783,
+    "zero_mask_full_contract_sets_identical": 6568,
+    "par_score_improved_vs_original_boards": 807,
+    "mean_imp": 0.4276,
+    "sum_imp": 4276,
+    "mean_raw_delta": 8.923,
+    "mean_double_par_score": -49.869,
+    "mean_pass_score": -58.792,
+    "bam_mean_points": 0.67865,
+    "bam_counts": {
+      "win": 6197,
+      "tie": 1179,
+      "loss": 2624
+    },
+    "loss8": 1201,
+    "loss10": 461,
+    "gain8": 210,
+    "imp_positive": 5257,
+    "imp_zero": 2125,
+    "imp_negative": 2618,
+    "imp_distribution": {
+      "-15": 1,
+      "-13": 2,
+      "-12": 86,
+      "-10": 372,
+      "-9": 290,
+      "-8": 450,
+      "-7": 9,
+      "-6": 80,
+      "-5": 683,
+      "-4": 625,
+      "-3": 4,
+      "-1": 16,
+      "0": 2125,
+      "1": 545,
+      "2": 605,
+      "3": 2063,
+      "5": 10,
+      "6": 1215,
+      "7": 609,
+      "8": 31,
+      "9": 3,
+      "11": 173,
+      "12": 1,
+      "13": 1,
+      "15": 1
+    },
+    "par_score_distribution": {
+      "-1400": 1,
+      "-1100": 2,
+      "-800": 82,
+      "-650": 68,
+      "-630": 6,
+      "-620": 259,
+      "-600": 42,
+      "-500": 744,
+      "-300": 1264,
+      "-150": 7,
+      "-140": 1107,
+      "-130": 2,
+      "-120": 79,
+      "-110": 11,
+      "-100": 1523,
+      "-50": 602,
+      "110": 761,
+      "120": 213,
+      "130": 401,
+      "140": 9,
+      "200": 2180,
+      "400": 208,
+      "420": 2,
+      "430": 9,
+      "500": 390,
+      "800": 25,
+      "920": 2,
+      "1440": 1
+    },
+    "dds_or_par_recomputed": false
+  },
+  "B": {
+    "status": "passed",
+    "policy": "B",
+    "n": 10000,
+    "legally_replayed_principal_variations": 10000,
+    "replayed_calls": 107901,
+    "independently_scored_optimal_terminals": 25952,
+    "zero_mask_full_contract_sets_identical": 4413,
+    "par_score_improved_vs_original_boards": 1507,
+    "mean_imp": 0.6295,
+    "sum_imp": 6295,
+    "mean_raw_delta": 15.727,
+    "mean_double_par_score": -43.065,
+    "mean_pass_score": -58.792,
+    "bam_mean_points": 0.6952,
+    "bam_counts": {
+      "win": 6291,
+      "tie": 1322,
+      "loss": 2387
+    },
+    "loss8": 1191,
+    "loss10": 461,
+    "gain8": 210,
+    "imp_positive": 5687,
+    "imp_zero": 1939,
+    "imp_negative": 2374,
+    "imp_distribution": {
+      "-15": 1,
+      "-13": 2,
+      "-12": 86,
+      "-10": 372,
+      "-9": 288,
+      "-8": 442,
+      "-7": 10,
+      "-6": 73,
+      "-5": 580,
+      "-4": 491,
+      "-3": 4,
+      "-1": 25,
+      "0": 1939,
+      "1": 545,
+      "2": 1035,
+      "3": 2063,
+      "5": 10,
+      "6": 1215,
+      "7": 609,
+      "8": 31,
+      "9": 3,
+      "11": 173,
+      "12": 1,
+      "13": 1,
+      "15": 1
+    },
+    "par_score_distribution": {
+      "-1400": 1,
+      "-1100": 2,
+      "-800": 82,
+      "-650": 68,
+      "-630": 6,
+      "-620": 259,
+      "-600": 42,
+      "-500": 735,
+      "-300": 1020,
+      "-150": 18,
+      "-140": 1255,
+      "-130": 2,
+      "-120": 71,
+      "-110": 11,
+      "-100": 1186,
+      "-50": 1041,
+      "110": 761,
+      "120": 213,
+      "130": 401,
+      "140": 9,
+      "200": 2180,
+      "400": 208,
+      "420": 2,
+      "430": 9,
+      "500": 390,
+      "800": 25,
+      "920": 2,
+      "1440": 1
+    },
+    "dds_or_par_recomputed": false
+  },
+  "B_vs_A": {
+    "pointwise_monotonicity_passed": true,
+    "score_improved_boards": 700
+  }
+}
